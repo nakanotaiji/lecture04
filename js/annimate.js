@@ -25,7 +25,7 @@ slideinFoxkehButton.addEventListener("click", startSlideinFoxkeh);
 
 //イベントハンドラが行っている処理→クリックした場合に呼び出される、アニメーション効果を作成する、
 //イベント名：click,animationed,class,slidein,flip,
-//
+//foxkehがクリックすると移動してきて、アニメとして動き、一回転する
 
 
 
