@@ -1,7 +1,6 @@
 var endFlipFoxkeh = function(){
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
 	foxkeh.removeEventListener("animationend", endFlipFoxkeh);
-
 	foxkeh.setAttribute("class", "");
 };
 
@@ -23,3 +22,11 @@ var startSlideinFoxkeh = function(){
 
 var slideinFoxkehButton = document.querySelector("#slidein-foxkeh button");
 slideinFoxkehButton.addEventListener("click", startSlideinFoxkeh);
+
+//イベントハンドラが行っている処理→クリックした場合に呼び出される、アニメーション効果を作成する、
+//イベント名：click,animationed,class,slidein,flip,
+//
+
+
+
+
